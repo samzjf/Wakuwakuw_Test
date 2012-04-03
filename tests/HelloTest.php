@@ -4,7 +4,7 @@ class HelloTest extends PHPUnit_Framework_TestCase {
 
     public function testHello()
     {
-        $hello = 'hello world';
-        $this->assertEquals('hello world', $hello);
+        $hello_world = 'hello world';
+        $this->assertEquals('hello world', $hello_world);
     }
 }
