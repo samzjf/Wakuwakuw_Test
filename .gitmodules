@@ -1,0 +1,3 @@
+[submodule "vendor"]
+	path = vendor
+	url = http://repo.wakuwakuw.com/_framework_Kohana.git
