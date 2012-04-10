@@ -2,4 +2,10 @@ language: php
 php:
   - 5.3
   - 5.4
+
+before_script:
+  - cd vendor
+  - git submodule init
+  - git submodule update
+
 script: phpunit
