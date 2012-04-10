@@ -4,8 +4,7 @@ php:
   - 5.4
 
 before_script:
-  - git submodule init
-  - git submodule update
+  - git submodule update --init
   - cd vendor
   - git pull origin develop
   - cd ../
