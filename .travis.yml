@@ -4,7 +4,7 @@ php:
   - 5.4
 
 before_script:
-  - sudo git submodule update --init
+  - sudo git --quiet submodule update --init
   - cd vendor
   - sudo git pull origin develop
   - cd ../
