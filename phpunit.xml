@@ -1,5 +1,6 @@
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
+         bootstrap="bootstrap.php"
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -13,6 +14,7 @@
 <testsuites>
    <testsuite name="Wakuwakuw Test Suite">
       <directory>tests/</directory>
+      <directory>tests/api</directory>
    </testsuite>
 </testsuites>
   <!-- ... -->
