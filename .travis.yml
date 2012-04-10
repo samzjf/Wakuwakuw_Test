@@ -4,8 +4,10 @@ php:
   - 5.4
 
 before_script:
-  - cd vendor
   - git submodule init
   - git submodule update
+  - cd vendor
+  - git pull origin develop
+  - cd ../
 
 script: phpunit
